@@ -40,6 +40,7 @@ typedef struct alumno_s {
 /*=====[Prototypes (declarations) of public functions]=======================*/
 
 bool SerializarAlumno(char * cadena, size_t espacio, const alumno_t alumno);
+bool FlorenciaBattocchia(char * cadena, size_t espacio);
 
 /*=====[Prototypes (declarations) of public interrupt functions]=============*/
 
