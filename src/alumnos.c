@@ -46,7 +46,6 @@ bool SerializarAlumno(char * cadena, size_t espacio, const alumno_t alumno) {
     return (resultado >= 0);
 }
 
-
 bool EstebanVolentini(char * cadena, size_t espacio) {
     static const struct alumno_s ALUMNO = {
         .apellidos = "VOLENTINI",
@@ -121,6 +120,15 @@ bool GasparSantamarina(char * cadena, size_t espacio)
     return SerializarAlumno(cadena, espacio, &alumno);
 }
 
+bool FranciscoTimez(char * cadena, size_t espacio) {
+    const struct alumno_s alumno = {
+        .apellidos = "TIMEZ",
+        .nombres = "Francisco Gabriel",
+        .documento = "34.826.419",
+    };
+
+    return SerializarAlumno(cadena, espacio, &alumno);
+}
 
 bool PabloAguirre(char * cadena, size_t espacio) {
     static const struct alumno_s ALUMNO = {
@@ -132,4 +140,6 @@ bool PabloAguirre(char * cadena, size_t espacio) {
     return SerializarAlumno(cadena, espacio, &ALUMNO);
 }
 
+=======
+>>>>>>> d0d8d44
 /*=====[Implementations of private functions]================================*/

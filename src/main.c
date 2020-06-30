@@ -42,6 +42,13 @@ int main(int argc, char *argv[]) {
     } else {
         printf("No se pudo serializar el alumno\r\n");
     }
+
+    if (FranciscoTimez(cadena, sizeof(cadena))) {
+        printf("Alumno: %s\r\n", cadena);
+    } else {
+        printf("No se pudo serializar el alumno\r\n");
+    }
+
     if (FlorenciaBattocchia(cadena, sizeof(cadena))) {
 
         printf("Alumno: %s\r\n", cadena);
@@ -86,5 +93,7 @@ int main(int argc, char *argv[]) {
         printf("No se pudo serializar el alumno\r\n");
     } 
 
+=======
+>>>>>>> d0d8d44
     return 0;
 }
