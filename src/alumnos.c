@@ -164,6 +164,14 @@ bool MiltonEduardoSosa(char * cadena, size_t espacio){
         .nombres = "Milton Eduardo",
         .documento = "33.425.204",
     };
+}
+
+bool FabiolaDeLasCasas(char * cadena, size_t espacio) {
+    const struct alumno_s alumno = {
+        .apellidos = "DE LAS CASAS ESCARDO",
+        .nombres = "Fabiola",
+        .documento = "93.712.282",
+    };
 
     return SerializarAlumno(cadena, espacio, &alumno);
 }
