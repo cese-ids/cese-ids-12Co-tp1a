@@ -6,7 +6,6 @@
  * Version: 0.1.0
  * Creation Date: 2019/06/21
  */
- 
 /*=====[Inclusion of own header]=============================================*/
 
 #include "alumnos.h"
@@ -98,7 +97,5 @@ int main(int argc, char *argv[]) {
         printf("No se pudo serializar el alumno\r\n");
     } 
 
-=======
->>>>>>> d0d8d44
     return 0;
 }
