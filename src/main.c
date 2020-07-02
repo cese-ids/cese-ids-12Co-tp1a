@@ -6,7 +6,6 @@
  * Version: 0.1.0
  * Creation Date: 2019/06/21
  */
- 
 /*=====[Inclusion of own header]=============================================*/
 
 #include "alumnos.h"
@@ -37,12 +36,24 @@
 int main(int argc, char *argv[]) {
     char cadena[128];
 
-
     if (EstebanVolentini(cadena, sizeof(cadena))) {
         printf("Alumno: %s\r\n", cadena);
     } else {
         printf("No se pudo serializar el alumno\r\n");
     }
+
+    if (GustavoRamoscelli(cadena, sizeof(cadena))) {
+        printf("Alumno: %s\r\n", cadena);
+    } else {
+        printf("No se pudo serializar el alumno\r\n");
+    }
+
+    if (FranciscoTimez(cadena, sizeof(cadena))) {
+        printf("Alumno: %s\r\n", cadena);
+    } else {
+        printf("No se pudo serializar el alumno\r\n");
+    }
+
     if (FlorenciaBattocchia(cadena, sizeof(cadena))) {
 
         printf("Alumno: %s\r\n", cadena);
@@ -61,15 +72,20 @@ int main(int argc, char *argv[]) {
     } else {
         printf("No se pudo serializar el alumno\r\n");
     }
-    
+
     if (CristianTrinidad(cadena, sizeof(cadena))) {
             printf("Alumno: %s\r\n", cadena);
     } else {
         printf("No se pudo serializar el alumno\r\n");
     }
-    
 
     if (GasparSantamarina(cadena, sizeof(cadena))) {
+        printf("Alumno: %s\r\n", cadena);
+    } else {
+        printf("No se pudo serializar el alumno\r\n");
+    }
+
+    if (PabloSeverini(cadena, sizeof(cadena))) {
         printf("Alumno: %s\r\n", cadena);
     } else {
         printf("No se pudo serializar el alumno\r\n");
@@ -81,6 +97,24 @@ int main(int argc, char *argv[]) {
         printf("No se pudo serializar el alumno\r\n");
     }
 
+    if (RonalCelaya(cadena, sizeof(cadena))) {
+        printf("Alumno: %s\r\n", cadena);
+    } else {
+        printf("No se pudo serializar el alumno\r\n");
+    } 
+
+    if (MiltonEduardoSosa(cadena, sizeof(cadena))) {
+        printf("Alumno: %s\r\n", cadena);
+    } else {
+       printf("No se pudo serializar el alumno\r\n");
+    }
+    
+    if (FabiolaDeLasCasas(cadena, sizeof(cadena))) {
+        printf("Alumno: %s\r\n", cadena);
+    } else {
+        printf("No se pudo serializar el alumno\r\n");
+    }
+    
 
 if (IvanSzkrabko(cadena, sizeof(cadena))) {
     printf("Alumno: %s\r\n", cadena);
