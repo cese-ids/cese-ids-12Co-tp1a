@@ -156,6 +156,8 @@ bool GustavoRamoscelli(char * cadena, size_t espacio) {
         .nombres = "Gustavo Ramoscelli",
         .documento = "22.053.392",
     };
+
+    return SerializarAlumno(cadena, espacio, &alumno);
 }
 
 bool MiltonEduardoSosa(char * cadena, size_t espacio){
@@ -164,6 +166,8 @@ bool MiltonEduardoSosa(char * cadena, size_t espacio){
         .nombres = "Milton Eduardo",
         .documento = "33.425.204",
     };
+
+    return SerializarAlumno(cadena, espacio, &alumno);
 }
 
 bool FabiolaDeLasCasas(char * cadena, size_t espacio) {
@@ -181,6 +185,16 @@ bool IvanSzkrabko(char * cadena, size_t espacio) {
         .apellidos = "SZKRABKO",
         .nombres = "Ivan",
         .documento = "77.777.77",
+    };
+
+    return SerializarAlumno(cadena, espacio, &alumno);
+}
+
+bool FelipeCalcavecchia(char * cadena, size_t espacio) {
+    const struct alumno_s alumno = {
+        .apellidos = "CALCAVECCHIA",
+        .nombres = "Felipe Alberto",
+        .documento = "17.163.886",
     };
 
     return SerializarAlumno(cadena, espacio, &alumno);
