@@ -195,10 +195,21 @@ bool FelipeCalcavecchia(char * cadena, size_t espacio) {
         .apellidos = "CALCAVECCHIA",
         .nombres = "Felipe Alberto",
         .documento = "17.163.886",
+        };
+
+    return SerializarAlumno(cadena, espacio, &alumno);
+}
+
+bool PabloFolino(char * cadena, size_t espacio) {
+    const struct alumno_s alumno = {
+        .apellidos = "FOLINO",
+        .nombres = "Pablo Daniel",
+        .documento = "20.617.322",
     };
 
     return SerializarAlumno(cadena, espacio, &alumno);
 }
+
 
 /*=====[Implementations of private functions]================================*/
 
