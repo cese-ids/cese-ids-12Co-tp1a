@@ -43,7 +43,6 @@ bool SerializarAlumno(char * cadena, size_t espacio, const alumno_t alumno);
 
 bool MiltonEduardoSosa(char * cadena, size_t espacio);
 
-
 bool FlorenciaBattocchia(char * cadena, size_t espacio);
 
 bool EstebanVolentini(char * cadena, size_t espacio);
@@ -65,6 +64,17 @@ bool FranciscoTimez(char * cadena, size_t espacio);
 bool PabloSeverini(char * cadena, size_t espacio);
 
 bool GustavoRamoscelli(char * cadena, size_t espacio);
+
+bool FabiolaDeLasCasas(char * cadena, size_t espacio);
+
+bool IvanSzkrabko(char * cadena, size_t espacio);
+
+bool FelipeCalcavecchia(char * cadena, size_t espacio);
+
+bool PabloFolino(char * cadena, size_t espacio);
+
+bool AlejandroMoreno(char * cadena, size_t espacio);
+
 /*=====[Prototypes (declarations) of public interrupt functions]=============*/
 
 /*=====[C++ - end]===========================================================*/
