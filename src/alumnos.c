@@ -212,6 +212,16 @@ bool PabloFolino(char * cadena, size_t espacio) {
         .apellidos = "FOLINO",
         .nombres = "Pablo Daniel",
         .documento = "20.617.322",
+        };
+
+    return SerializarAlumno(cadena, espacio, &alumno);
+}
+
+bool FernandoDaniele(char * cadena, size_t espacio) {
+    const struct alumno_s alumno = {
+        .apellidos = "DANIELE",
+        .nombres = "Fernando Ezequiel",
+        .documento = "37.127.229",
     };
 
     return SerializarAlumno(cadena, espacio, &alumno);
